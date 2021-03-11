@@ -13,12 +13,12 @@ class RecipeModel: ObservableObject {
     
     init() {
         // create dymmy recipe data
-//        recipes.append(Recipe(name: "Spaghetti", cuisine: "Italian"))
-//        recipes.append(Recipe(name: "Sushi", cuisine: "Japanese"))
+        recipes.append(Recipe(name: "Spaghetti", cuisine: "Italian"))
+        recipes.append(Recipe(name: "Sushi", cuisine: "Japanese"))
     }
     
     func addRecipe() {
-//        recipes.append(Recipe(name: "Burger", cuisine: "American"))
+        recipes.append(Recipe(name: "Burger", cuisine: "American"))
     }
     
 }

@@ -19,7 +19,7 @@ struct ContentView: View {
                 }
             }
             Button("Add Recipe") {
-                model.addRecipe()
+                print("tapped")
             }
         }
     }
